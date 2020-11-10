@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0A84891255A8316002464CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A84890255A8316002464CE /* AppDelegate.swift */; };
+		A0A84893255A8316002464CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A84892255A8316002464CE /* SceneDelegate.swift */; };
+		A0A84895255A8316002464CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A84894255A8316002464CE /* ViewController.swift */; };
+		A0A84898255A8316002464CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A84896255A8316002464CE /* Main.storyboard */; };
+		A0A8489A255A8318002464CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A84899255A8318002464CE /* Assets.xcassets */; };
+		A0A8489D255A8318002464CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A8489B255A8318002464CE /* LaunchScreen.storyboard */; };
+		A0A848A8255A8319002464CE /* EpikoinoniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A848A7255A8319002464CE /* EpikoinoniaTests.swift */; };
+		A0A848B3255A8319002464CE /* EpikoinoniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A848B2255A8319002464CE /* EpikoinoniaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0A848A4255A8319002464CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A84885255A8316002464CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0A8488C255A8316002464CE;
+			remoteInfo = Epikoinonia;
+		};
+		A0A848AF255A8319002464CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A84885255A8316002464CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0A8488C255A8316002464CE;
+			remoteInfo = Epikoinonia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0A8488D255A8316002464CE /* Epikoinonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Epikoinonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A84890255A8316002464CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0A84892255A8316002464CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0A84894255A8316002464CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0A84897255A8316002464CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0A84899255A8318002464CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0A8489C255A8318002464CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0A8489E255A8318002464CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A848A3255A8319002464CE /* EpikoinoniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpikoinoniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A848A7255A8319002464CE /* EpikoinoniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpikoinoniaTests.swift; sourceTree = "<group>"; };
+		A0A848A9255A8319002464CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A848AE255A8319002464CE /* EpikoinoniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpikoinoniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A848B2255A8319002464CE /* EpikoinoniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpikoinoniaUITests.swift; sourceTree = "<group>"; };
+		A0A848B4255A8319002464CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0A8488A255A8316002464CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A848A0255A8319002464CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A848AB255A8319002464CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0A84884255A8316002464CE = {
+			isa = PBXGroup;
+			children = (
+				A0A8488F255A8316002464CE /* Epikoinonia */,
+				A0A848A6255A8319002464CE /* EpikoinoniaTests */,
+				A0A848B1255A8319002464CE /* EpikoinoniaUITests */,
+				A0A8488E255A8316002464CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0A8488E255A8316002464CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0A8488D255A8316002464CE /* Epikoinonia.app */,
+				A0A848A3255A8319002464CE /* EpikoinoniaTests.xctest */,
+				A0A848AE255A8319002464CE /* EpikoinoniaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0A8488F255A8316002464CE /* Epikoinonia */ = {
+			isa = PBXGroup;
+			children = (
+				A0A84890255A8316002464CE /* AppDelegate.swift */,
+				A0A84892255A8316002464CE /* SceneDelegate.swift */,
+				A0A84894255A8316002464CE /* ViewController.swift */,
+				A0A84896255A8316002464CE /* Main.storyboard */,
+				A0A84899255A8318002464CE /* Assets.xcassets */,
+				A0A8489B255A8318002464CE /* LaunchScreen.storyboard */,
+				A0A8489E255A8318002464CE /* Info.plist */,
+			);
+			path = Epikoinonia;
+			sourceTree = "<group>";
+		};
+		A0A848A6255A8319002464CE /* EpikoinoniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0A848A7255A8319002464CE /* EpikoinoniaTests.swift */,
+				A0A848A9255A8319002464CE /* Info.plist */,
+			);
+			path = EpikoinoniaTests;
+			sourceTree = "<group>";
+		};
+		A0A848B1255A8319002464CE /* EpikoinoniaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0A848B2255A8319002464CE /* EpikoinoniaUITests.swift */,
+				A0A848B4255A8319002464CE /* Info.plist */,
+			);
+			path = EpikoinoniaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0A8488C255A8316002464CE /* Epikoinonia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A848B7255A8319002464CE /* Build configuration list for PBXNativeTarget "Epikoinonia" */;
+			buildPhases = (
+				A0A84889255A8316002464CE /* Sources */,
+				A0A8488A255A8316002464CE /* Frameworks */,
+				A0A8488B255A8316002464CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Epikoinonia;
+			productName = Epikoinonia;
+			productReference = A0A8488D255A8316002464CE /* Epikoinonia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0A848A2255A8319002464CE /* EpikoinoniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A848BA255A8319002464CE /* Build configuration list for PBXNativeTarget "EpikoinoniaTests" */;
+			buildPhases = (
+				A0A8489F255A8319002464CE /* Sources */,
+				A0A848A0255A8319002464CE /* Frameworks */,
+				A0A848A1255A8319002464CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0A848A5255A8319002464CE /* PBXTargetDependency */,
+			);
+			name = EpikoinoniaTests;
+			productName = EpikoinoniaTests;
+			productReference = A0A848A3255A8319002464CE /* EpikoinoniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0A848AD255A8319002464CE /* EpikoinoniaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A848BD255A8319002464CE /* Build configuration list for PBXNativeTarget "EpikoinoniaUITests" */;
+			buildPhases = (
+				A0A848AA255A8319002464CE /* Sources */,
+				A0A848AB255A8319002464CE /* Frameworks */,
+				A0A848AC255A8319002464CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0A848B0255A8319002464CE /* PBXTargetDependency */,
+			);
+			name = EpikoinoniaUITests;
+			productName = EpikoinoniaUITests;
+			productReference = A0A848AE255A8319002464CE /* EpikoinoniaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0A84885255A8316002464CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					A0A8488C255A8316002464CE = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					A0A848A2255A8319002464CE = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = A0A8488C255A8316002464CE;
+					};
+					A0A848AD255A8319002464CE = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = A0A8488C255A8316002464CE;
+					};
+				};
+			};
+			buildConfigurationList = A0A84888255A8316002464CE /* Build configuration list for PBXProject "Epikoinonia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0A84884255A8316002464CE;
+			productRefGroup = A0A8488E255A8316002464CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0A8488C255A8316002464CE /* Epikoinonia */,
+				A0A848A2255A8319002464CE /* EpikoinoniaTests */,
+				A0A848AD255A8319002464CE /* EpikoinoniaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0A8488B255A8316002464CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A8489D255A8318002464CE /* LaunchScreen.storyboard in Resources */,
+				A0A8489A255A8318002464CE /* Assets.xcassets in Resources */,
+				A0A84898255A8316002464CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A848A1255A8319002464CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A848AC255A8319002464CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0A84889255A8316002464CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A84895255A8316002464CE /* ViewController.swift in Sources */,
+				A0A84891255A8316002464CE /* AppDelegate.swift in Sources */,
+				A0A84893255A8316002464CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A8489F255A8319002464CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A848A8255A8319002464CE /* EpikoinoniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A848AA255A8319002464CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A848B3255A8319002464CE /* EpikoinoniaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0A848A5255A8319002464CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0A8488C255A8316002464CE /* Epikoinonia */;
+			targetProxy = A0A848A4255A8319002464CE /* PBXContainerItemProxy */;
+		};
+		A0A848B0255A8319002464CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0A8488C255A8316002464CE /* Epikoinonia */;
+			targetProxy = A0A848AF255A8319002464CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0A84896255A8316002464CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A84897255A8316002464CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0A8489B255A8318002464CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A8489C255A8318002464CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0A848B5255A8319002464CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0A848B6255A8319002464CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0A848B8255A8319002464CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Epikoinonia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.uha.ensisa.boueya.solanki.Epikoinonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0A848B9255A8319002464CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Epikoinonia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.uha.ensisa.boueya.solanki.Epikoinonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0A848BB255A8319002464CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EpikoinoniaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.uha.ensisa.boueya.solanki.EpikoinoniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Epikoinonia.app/Epikoinonia";
+			};
+			name = Debug;
+		};
+		A0A848BC255A8319002464CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EpikoinoniaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.uha.ensisa.boueya.solanki.EpikoinoniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Epikoinonia.app/Epikoinonia";
+			};
+			name = Release;
+		};
+		A0A848BE255A8319002464CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EpikoinoniaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.uha.ensisa.boueya.solanki.EpikoinoniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Epikoinonia;
+			};
+			name = Debug;
+		};
+		A0A848BF255A8319002464CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EpikoinoniaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.uha.ensisa.boueya.solanki.EpikoinoniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Epikoinonia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0A84888255A8316002464CE /* Build configuration list for PBXProject "Epikoinonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A848B5255A8319002464CE /* Debug */,
+				A0A848B6255A8319002464CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A848B7255A8319002464CE /* Build configuration list for PBXNativeTarget "Epikoinonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A848B8255A8319002464CE /* Debug */,
+				A0A848B9255A8319002464CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A848BA255A8319002464CE /* Build configuration list for PBXNativeTarget "EpikoinoniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A848BB255A8319002464CE /* Debug */,
+				A0A848BC255A8319002464CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A848BD255A8319002464CE /* Build configuration list for PBXNativeTarget "EpikoinoniaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A848BE255A8319002464CE /* Debug */,
+				A0A848BF255A8319002464CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0A84885255A8316002464CE /* Project object */;
+}

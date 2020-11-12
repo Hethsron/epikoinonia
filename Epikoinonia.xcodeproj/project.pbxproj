@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0711D6D255B15FB00333108 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0711D6C255B15FB00333108 /* NameViewController.swift */; };
+		A09AE001255D972B006AA080 /* Epikoinonia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A09ADFFF255D972B006AA080 /* Epikoinonia.xcdatamodeld */; };
+		A09AE007255D9A51006AA080 /* Contacts+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09AE005255D9A51006AA080 /* Contacts+CoreDataClass.swift */; };
+		A09AE008255D9A51006AA080 /* Contacts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09AE006255D9A51006AA080 /* Contacts+CoreDataProperties.swift */; };
 		A0A84891255A8316002464CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A84890255A8316002464CE /* AppDelegate.swift */; };
 		A0A84893255A8316002464CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A84892255A8316002464CE /* SceneDelegate.swift */; };
 		A0A84895255A8316002464CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A84894255A8316002464CE /* ViewController.swift */; };
@@ -15,6 +19,10 @@
 		A0A8489D255A8318002464CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A8489B255A8318002464CE /* LaunchScreen.storyboard */; };
 		A0A848A8255A8319002464CE /* EpikoinoniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A848A7255A8319002464CE /* EpikoinoniaTests.swift */; };
 		A0A848B3255A8319002464CE /* EpikoinoniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A848B2255A8319002464CE /* EpikoinoniaUITests.swift */; };
+		A0A8C89E255BA548009DE333 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A8C89D255BA548009DE333 /* PhoneViewController.swift */; };
+		A0A8C8A3255BA5B1009DE333 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A8C8A2255BA5B1009DE333 /* BookViewController.swift */; };
+		A0A8C8A8255C25FA009DE333 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A8C8A7255C25ED009DE333 /* Contacts.swift */; };
+		A0B4A10D255AA7CF00BED203 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B4A10C255AA7CF00BED203 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0711D6C255B15FB00333108 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		A09AE000255D972B006AA080 /* Epikoinonia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Epikoinonia.xcdatamodel; sourceTree = "<group>"; };
+		A09AE005255D9A51006AA080 /* Contacts+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contacts+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A09AE006255D9A51006AA080 /* Contacts+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contacts+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A0A8488D255A8316002464CE /* Epikoinonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Epikoinonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A84890255A8316002464CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0A84892255A8316002464CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		A0A848AE255A8319002464CE /* EpikoinoniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpikoinoniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A848B2255A8319002464CE /* EpikoinoniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpikoinoniaUITests.swift; sourceTree = "<group>"; };
 		A0A848B4255A8319002464CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A8C89D255BA548009DE333 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		A0A8C8A2255BA5B1009DE333 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		A0A8C8A7255C25ED009DE333 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		A0B4A10C255AA7CF00BED203 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,8 @@
 		A0A84884255A8316002464CE = {
 			isa = PBXGroup;
 			children = (
+				A09AE005255D9A51006AA080 /* Contacts+CoreDataClass.swift */,
+				A09AE006255D9A51006AA080 /* Contacts+CoreDataProperties.swift */,
 				A0A8488F255A8316002464CE /* Epikoinonia */,
 				A0A848A6255A8319002464CE /* EpikoinoniaTests */,
 				A0A848B1255A8319002464CE /* EpikoinoniaUITests */,
@@ -106,6 +124,12 @@
 				A0A84899255A8318002464CE /* Assets.xcassets */,
 				A0A8489B255A8318002464CE /* LaunchScreen.storyboard */,
 				A0A8489E255A8318002464CE /* Info.plist */,
+				A0B4A10C255AA7CF00BED203 /* MainViewController.swift */,
+				A0711D6C255B15FB00333108 /* NameViewController.swift */,
+				A0A8C89D255BA548009DE333 /* PhoneViewController.swift */,
+				A0A8C8A2255BA5B1009DE333 /* BookViewController.swift */,
+				A0A8C8A7255C25ED009DE333 /* Contacts.swift */,
+				A09ADFFF255D972B006AA080 /* Epikoinonia.xcdatamodeld */,
 			);
 			path = Epikoinonia;
 			sourceTree = "<group>";
@@ -258,9 +282,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A09AE008255D9A51006AA080 /* Contacts+CoreDataProperties.swift in Sources */,
+				A0A8C8A8255C25FA009DE333 /* Contacts.swift in Sources */,
 				A0A84895255A8316002464CE /* ViewController.swift in Sources */,
+				A09AE001255D972B006AA080 /* Epikoinonia.xcdatamodeld in Sources */,
 				A0A84891255A8316002464CE /* AppDelegate.swift in Sources */,
 				A0A84893255A8316002464CE /* SceneDelegate.swift in Sources */,
+				A0A8C8A3255BA5B1009DE333 /* BookViewController.swift in Sources */,
+				A0A8C89E255BA548009DE333 /* PhoneViewController.swift in Sources */,
+				A0B4A10D255AA7CF00BED203 /* MainViewController.swift in Sources */,
+				A09AE007255D9A51006AA080 /* Contacts+CoreDataClass.swift in Sources */,
+				A0711D6D255B15FB00333108 /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +619,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A09ADFFF255D972B006AA080 /* Epikoinonia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A09AE000255D972B006AA080 /* Epikoinonia.xcdatamodel */,
+			);
+			currentVersion = A09AE000255D972B006AA080 /* Epikoinonia.xcdatamodel */;
+			path = Epikoinonia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A0A84885255A8316002464CE /* Project object */;
 }
